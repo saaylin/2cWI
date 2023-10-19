@@ -1,0 +1,19 @@
+
+/* element selector */
+div {
+  background-color: yellow;
+}
+
+/* id selector */
+#head{
+  font-size: 2rem;
+}
+/* Klassenselektor */
+.subtitle{
+  color: rgb(17, 6, 164);
+}
+
+#text p {
+    background-color: blueviolet;
+    
+}

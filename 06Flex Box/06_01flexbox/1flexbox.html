@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Übung1</title>
+</head>
+
+<style>
+    .container1{
+        background-color: aqua;
+        height: 300px;
+        width: 460px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: end;
+        
+    }
+
+    .Box1{
+        background-color: orange;
+        width: 160px;
+        height: 100px;
+    }
+
+    .container2{
+        background-color: yellow;
+        height: 150px;
+        display: flex;
+        margin-top: 200px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Box{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Box3{
+        position: absolute;
+        background-color: pink;
+        width: 50px;
+        height: 50px;
+        top: 0px;
+        right: 0px;
+        margin-left: 500px;
+    }
+
+</style>
+
+<body>
+    <div class="Box3">08</div>
+
+    <div class="container1">
+        hala madrid
+        <div class="Box1"></div>
+    </div>
+
+    <div class="container2">
+        <div class="Box">one</div>
+        <div class="Box">two</div>
+        <div class="Box">three</div>
+        <div class="Box">four</div>
+    </div>
+
+</body>
+</html>
