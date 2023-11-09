@@ -6,24 +6,69 @@
     <title>FlexBox Ü3</title>
 </head>
 <style>
+
+.Box3{
+    background-color: rgb(234, 226, 84);
+    height: 200px;
+    width: 200px;
+    margin-left: 220px;
+    display: sticky;
+}
+.Box2{
+    background-color: navy;
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+
+.Box5{
+    background-color: navy;
+    height: 20px;
+    width: 20px;
+}
+
+.Box4{
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+}
 .container1{
     background-color: bisque;
     width: 250px;
     height: 250px;
-    margin-top: 500px;
+    margin-top: 250px;
     margin-left: 0px;
     align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .Box1{
     background-color: aqua;
-    height: 40px;
-    width: 40px;
-
+    height: 100px;
+    width: 100px;
 }
+
+
 </style>
 <body>
-<div class="container1">
-    <div class="Box1"></div>
+
+<div class="Box2"> 2
+    <div class="Box3"> 3
+        <div class="Box5"> FB</div>
+    </div>
 </div>
+
+<div class="Box4"> 4</div>
+
+<div class="container1">
+    <div class="Box1"> mermiflow</div>
+</div>
+
 </body>
 </html>
