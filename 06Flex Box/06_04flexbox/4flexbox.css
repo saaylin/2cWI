@@ -1,0 +1,47 @@
+*{
+margin: 0;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.container2{
+    display: flex;
+}
+
+.box3{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.box1{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+
+    
+}
+
+
+
+
